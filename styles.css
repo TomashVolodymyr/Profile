@@ -24,7 +24,7 @@ body{
 }
 
 .wrapper {
-	padding: 0 99px 0 98px;
+	padding: 0 7% 0 7%;
 }
 
 
@@ -32,7 +32,22 @@ body{
 	width: 100%;
 	height: 672px;	
 	background:  url(img/header_b.jpg) 50% 80% / 100%  no-repeat;
-}
+}	
+	@media (max-width: 1144px) {
+		.header{
+			height: 622px;	
+		}
+	}
+	@media (max-width: 960px) {
+		.header{
+			height: 560px;	
+		}
+	}
+	@media (max-width: 848px) {
+		.header{
+			height: 510px;	
+		}
+	}
 
 .top_header{
 	width: 100%;
@@ -41,20 +56,35 @@ body{
 }
 .top_header li {
 	float: left;
-	margin: 22px 10px 0 ;
+	margin: 1.61% 0.73% 0 ;
 	letter-spacing:3px;
 	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: 700;
 }
+	@media (max-width: 960px) {
+		.top_header li {
+		font-size: 12px;
+		}
+	}
 .list li:first-child {
 	color: #10C9C3;
-	margin-left: 580px;
+	margin-left: 30.45%;
 }
+	@media (max-width: 1144px) {
+		.list li:first-child {
+		margin-left: 18.45%;
+		}
+	}
 .above_header{
-	width: 550px;
-	margin: 194px 0 0 768px;
+	width: 40.26%;
+	margin: 14.2% 0 0 56.22%;
 }
+	@media (max-width: 1144px) {
+		.above_header{
+			margin: 7.2% 0 0 46.22%;
+		}
+	}
 .top_header li a:link {
 	color:black;
 }
@@ -71,12 +101,24 @@ h1 {
 	font-size: 38px;
 	font-weight: 700;
 }
+	@media (max-width: 960px) {
+		h1 {
+			font-size: 32px;
+		}
+	}
+
 .above_header p {
 	color: #787878;
 	font-size: 28px;
 	line-height: 35px;
-	background: rgba(25,225,225, 0.5);;
+	background: rgba(25,225,225, 0.5);
+	padding-left: 4px;
 }
+	@media (max-width: 960px) {
+		.above_header p {
+			font-size: 18px;
+		}
+	}
 .contact_us {
 	display: block;
 	width: 180px;
@@ -129,6 +171,12 @@ h1 {
 	width: 100%;
 	height: 574px;
 }
+	@media (max-width: 1144px) {
+		.skills {
+			height: 474px;
+		}
+	}
+		
 .sk_inf {
 	float: left;
 	width: 50%;
@@ -136,6 +184,12 @@ h1 {
 	background: white;
 	padding: 98px;
 }
+	@media (max-width: 1144px) {
+		.sk_inf {
+			height: 474px;
+		}
+	}
+
 .sk_inf h3 {
 	font-size: 34px;
 	font-weight: 700;
@@ -153,6 +207,11 @@ h1 {
 	height: 574px;
 	background: url(img/skills_img.jpg) 50% 50% / 100% 100% no-repeat;
 }
+	@media (max-width: 1144px) {
+		.sk_img {
+			height: 474px;
+		}
+	}	
 .lines_d, .lines_w, .lines_m {
 	height: 34px;
 	margin-top: 43px;
@@ -171,14 +230,14 @@ h1 {
 	width: 100%;
 	height: 239px;
 	background: #10C9C3;
-	padding: 100px 0 0 98px;
+	padding: 100px 0 0 7%;
 }
 .digits div {
-	width: 300px;
-	height: 50px;
-	padding-left: 90px;
+	width: 21,96%;
+	height: 3,66%;
+	padding-left: 7%;
 	float: left;
-	margin-left: 50px;
+	margin-left: 3.66%;
 	color: white;
 	font-size: 16px;
 	text-transform: uppercase;
@@ -199,14 +258,33 @@ h1 {
 .digits div:nth-child(4) {
 	background: url(img/icons/numbers/heart.png) 0% 50% / 20% 100% no-repeat;
 }
+	@media (max-width: 1144px) {
+		.digits {
+			height: 139px;
+			padding: 60px 0 0 7%;
+		}
+		.digits div{
+			font-size: 12px;
+		}
+	}
 
 .photos {
 	height: 600px;
 	width: 100%;
 }
+@media (max-width: 1000px) {
+		.photos {
+			height: 400px;
+		}
+	}
+@media (max-width: 880px) {
+		.photos {
+			height: 300px;
+		}
+	}
 .photos div {
 	float: left;
-	height: 300px;
+	height: 50%;
 	width: 25%;
 }
 .photos div:nth-child(1) {
@@ -265,6 +343,8 @@ h1 {
 video {
 	display: block;
 	margin: 55px auto;
+	width: 85.94%;
+	height: 574px;
 }
 
 .thinks{
@@ -402,13 +482,25 @@ footer {
 	font-size: 15px;
 	line-height: 25px;
 }
+	@media (max-width: 1168px) {
+		footer {
+			font-size: 12px;
+		}
+	}
+	@media (max-width: 960px) {
+		footer{
+			height: 184px;
+			font-size: 10px;
+			padding: 5% 7%;	
+		}
+	}
 
 footer p {
 	display: block;
 	float: left;
 }
 footer p:nth-child(1) {
-	margin-left: 46px;
+	margin-left: 3.36%;
 }
 footer p:nth-child(1) span {
 	font-size: 18px;
@@ -416,14 +508,14 @@ footer p:nth-child(1) span {
 	color: white;
 }
 footer p:nth-child(2) {
-	margin-left: 246px;
+	margin-left: 18%;
 }
 footer p:nth-child(3) {
-	margin-left: 145px; 
+	margin-left: 10.61%; 
 }
 footer p:nth-child(4) {
-	margin-left: 55px;
+	margin-left: 4.02%;
 }
 footer p:nth-child(5) {
-	margin-left: 135px;
+	margin-left: 9.88%;
 }
