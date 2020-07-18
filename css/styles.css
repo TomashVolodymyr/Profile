@@ -31,7 +31,7 @@ body{
 .header{
 	width: 100%;
 	height: 672px;	
-	background:  url(img/header_b.jpg) 50% 80% / 100%  no-repeat;
+	background:  url(../img/header_b.jpg) 50% 80% / 100%  no-repeat;
 }	
 	@media (max-width: 1144px) {
 		.header{
@@ -52,7 +52,7 @@ body{
 .top_header{
 	width: 100%;
 	height: 40px;
-	background: url(img/logo.png) 0px bottom no-repeat;	
+	background: url(../img/logo.png) 0px bottom no-repeat;	
 }
 .top_header li {
 	float: left;
@@ -146,7 +146,7 @@ h1 {
 .about {
 	width: 100%;
 	height: 416px;
-	background: white url(img/sighn.png) 50% 85% no-repeat;
+	background: white url(../img/sighn.png) 50% 85% no-repeat;
 	font-size: 24px;
 	padding-top: 98px;
 }
@@ -205,7 +205,7 @@ h1 {
 	float: left;
 	width: 50%;
 	height: 574px;
-	background: url(img/skills_img.jpg) 50% 50% / 100% 100% no-repeat;
+	background: url(../img/skills_img.jpg) 50% 50% / 100% 100% no-repeat;
 }
 	@media (max-width: 1144px) {
 		.sk_img {
@@ -217,13 +217,13 @@ h1 {
 	margin-top: 43px;
 }
 .lines_d{
-	background: url(img/first_line.png) left bottom no-repeat, url(img/under_line.png) left bottom no-repeat;
+	background: url(../img/first_line.png) left bottom no-repeat, url(../img/under_line.png) left bottom no-repeat;
 }
 .lines_w{
-	background: url(img/second_line.png) left bottom no-repeat, url(img/under_line.png) left bottom no-repeat;
+	background: url(../img/second_line.png) left bottom no-repeat, url(../img/under_line.png) left bottom no-repeat;
 }
 .lines_m{
-	background: url(img/third_line.png) left bottom no-repeat, url(img/under_line.png) left bottom no-repeat;
+	background: url(../img/third_line.png) left bottom no-repeat, url(../img/under_line.png) left bottom no-repeat;
 }
 
 .digits{
@@ -247,16 +247,16 @@ h1 {
 }
 .digits div:nth-child(1) {
 	margin-left: 0;
-	background: url(img/icons/numbers/suitcase.png) 0% 50% / 20% 100% no-repeat;
+	background: url(../img/icons/numbers/suitcase.png) 0% 50% / 20% 100% no-repeat;
 }
 .digits div:nth-child(2) {
-	background: url(img/icons/numbers/clock.png) 0% 50% / 20% 100% no-repeat;
+	background: url(../img/icons/numbers/clock.png) 0% 50% / 20% 100% no-repeat;
 }
 .digits div:nth-child(3) {
-	background: url(img/icons/numbers/star.png) 0% 50% / 20% 100% no-repeat;
+	background: url(../img/icons/numbers/star.png) 0% 50% / 20% 100% no-repeat;
 }
 .digits div:nth-child(4) {
-	background: url(img/icons/numbers/heart.png) 0% 50% / 20% 100% no-repeat;
+	background: url(../img/icons/numbers/heart.png) 0% 50% / 20% 100% no-repeat;
 }
 	@media (max-width: 1144px) {
 		.digits {
@@ -288,28 +288,28 @@ h1 {
 	width: 25%;
 }
 .photos div:nth-child(1) {
-	background: url(img/photo_one.jpg) 50% 50% / 100% 100% no-repeat;
+	background: url(../img/photo_one.jpg) 50% 50% / 100% 100% no-repeat;
 }
 .photos div:nth-child(2) {
-	background: url(img/photo_two.jpg) 50% 50% / 100% 100% no-repeat;
+	background: url(../img/photo_two.jpg) 50% 50% / 100% 100% no-repeat;
 }
 .photos div:nth-child(3) {
-	background: url(img/photo_three.jpg) 50% 50% / 100% 100% no-repeat;
+	background: url(../img/photo_three.jpg) 50% 50% / 100% 100% no-repeat;
 }
 .photos div:nth-child(4) {
-	background: url(img/photo_four.jpg) 50% 50% / 100% 100% no-repeat;
+	background: url(../img/photo_four.jpg) 50% 50% / 100% 100% no-repeat;
 }
 .photos div:nth-child(5) {
-	background: url(img/photo_five.png) 50% 50% / 100% 100% no-repeat;
+	background: url(../img/photo_five.png) 50% 50% / 100% 100% no-repeat;
 }
 .photos div:nth-child(6) {
-	background: url(img/photo_six.jpg) 50% 50% / 100% 100% no-repeat;
+	background: url(../img/photo_six.jpg) 50% 50% / 100% 100% no-repeat;
 }
 .photos div:nth-child(7) {
-	background: url(img/photo_seven.jpg) 50% 50% / 100% 100% no-repeat;
+	background: url(../img/photo_seven.jpg) 50% 50% / 100% 100% no-repeat;
 }
 .photos div:nth-child(8) {
-	background: url(img/photo_eight.jpg) 50% 50% / 100% 100% no-repeat;
+	background: url(../img/photo_eight.jpg) 50% 50% / 100% 100% no-repeat;
 }
 
 .lead_more {
@@ -369,28 +369,28 @@ video {
 	color: black;	
 }
 .thinks div:nth-child(1) {
-	background: url(img/icons/servises/diamond.png) 50% 0% no-repeat;
+	background: url(../img/icons/servises/diamond.png) 50% 0% no-repeat;
 }
 .thinks div:nth-child(2) {
-	background: url(img/icons/servises/arc.png) 50% 0% no-repeat;
+	background: url(../img/icons/servises/arc.png) 50% 0% no-repeat;
 }
 .thinks div:nth-child(3) {
-	background: url(img/icons/servises/phone.png) 50% 0% no-repeat;
+	background: url(../img/icons/servises/phone.png) 50% 0% no-repeat;
 }
 .thinks div:nth-child(4) {
-	background: url(img/icons/servises/joy.png) 50% 0% no-repeat;
+	background: url(../img/icons/servises/joy.png) 50% 0% no-repeat;
 }
 .thinks div:nth-child(5) {
-	background: url(img/icons/servises/plane.png) 50% 0% no-repeat;
+	background: url(../img/icons/servises/plane.png) 50% 0% no-repeat;
 }
 .thinks div:nth-child(6) {
-	background: url(img/icons/servises/star.png) 50% 0% no-repeat;
+	background: url(../img/icons/servises/star.png) 50% 0% no-repeat;
 }
 .thinks div:nth-child(7) {
-	background: url(img/icons/servises/magic-wand.png) 50% 0% no-repeat;
+	background: url(../img/icons/servises/magic-wand.png) 50% 0% no-repeat;
 }
 .thinks div:nth-child(8) {
-	background: url(img/icons/servises/paint-bucket.png) 50% 0% no-repeat;
+	background: url(../img/icons/servises/paint-bucket.png) 50% 0% no-repeat;
 }
 
 .testimonials {
@@ -414,7 +414,7 @@ video {
 	width: 100%;
 	height: 200px;
 	padding: 0 7%;
-	background: url(img/icons/logos/1.png) 7% 50% no-repeat, url(img/icons/logos/2.png) 37% 50% no-repeat, url(img/icons/logos/3.png) 62% 50% no-repeat, url(img/icons/logos/4.png) 90% 50% no-repeat,  #FFFFFF;
+	background: url(../img/icons/logos/1.png) 7% 50% no-repeat, url(../img/icons/logos/2.png) 37% 50% no-repeat, url(../img/icons/logos/3.png) 62% 50% no-repeat, url(../img/icons/logos/4.png) 90% 50% no-repeat,  #FFFFFF;
 }
 
 .form_part {
