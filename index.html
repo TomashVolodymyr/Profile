@@ -5,20 +5,28 @@
 		<title>My Profile</title>
 		<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 		<link rel="stylesheet" href="css/styles.css">
+		<!-- Адаптив -->
+		<meta name="viewport" content="width=device-width">
 	</head>
 	<body>
+		<div class="up" ><a href="index.html"></a></div>
 		<header class="header">
 			<div class="wrapper">
 				<div class="top_header">
-					<ul class="list">
-						<li>home</li>
-						<li><a href="#about">about</a></li>
-						<li><a href="#work">work</a></li>
-						<li><a href="#process">process</a></li>
-						<li><a href="#services">services</a></li>
-						<li><a href="#testimonials">testimonials</a></li>
-						<li><a href="#contact">contact</a></li>
-					</ul>
+					<div class="header__burger">
+						<span></span>
+					</div>
+					<nav class="header__menu">
+						<ul class="list">
+							<li><a class="a" href="index.html">home</a></li>
+							<li><a class="a" href="#about">about</a></li>
+							<li><a class="a" href="#work">work</a></li>
+							<li><a class="a" href="#process">process</a></li>
+							<li><a class="a" href="#services">services</a></li>
+							<li><a class="a" href="#testimonials">testimonials</a></li>
+							<li><a class="a" href="#contact">contact</a></li>
+						</ul>
+					</nav>
 				</div>
 			</div>
 			<div class="above_header">
@@ -125,6 +133,9 @@
 			<p>News <br>Events <br>Contact <br>Legals</p>
 			<p>Facebook <br>Twitter <br>Instagram <br>Dribbble</p>
 		</footer>
-	
+		<!-- Подключаем jQuery -->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+		<!-- Подключаем файл JS скриптов -->
+		<script src="js/script.js"></script>
 	</body>
 </html>
