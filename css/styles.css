@@ -210,7 +210,7 @@ h1 {
 		} 
 	}
 
-.contact_us {
+.contact_me {
   display: block;
   width: 180px;
   height: 55px;
@@ -222,7 +222,7 @@ h1 {
   text-transform: uppercase;
   font-weight: 700; }
 	@media (max-width:767px){
-	.contact_us {
+	.contact_me {
      	width: 120px;
   		height: 25px;
 		margin-top: 21px;
@@ -230,19 +230,19 @@ h1 {
   		} 
 	}
 	@media (max-width:466px){
-		.contact_us {
+		.contact_me {
 	 		width: 100px;
   			height: 15px;
 		 	margin-top: 3px;
 		 	font-size: 8px;} 
 	}
-.contact_us a:link {
+.contact_me a:link {
   color: white; }
 
-.contact_us a:visited {
+.contact_me a:visited {
   color: white; }
 
-.contact_us a:hover {
+.contact_me a:hover {
   color: white; }
 
 .about {
