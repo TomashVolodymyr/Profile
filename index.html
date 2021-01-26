@@ -4,12 +4,17 @@
 		<meta charset="utf-8">
 		<title>My Profile</title>
 		<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/baguetteBox.min.css">
+		<script src="js/baguetteBox.min.js" async></script>
 		<!-- Адаптив -->
 		<meta name="viewport" content="width=device-width">
 	</head>
 	<body>
+
 		<div class="up" ><a href="index.html"></a></div>
+
 		<header class="header">
 			<div class="wrapper">
 				<div class="top_header">
@@ -29,73 +34,94 @@
 					</nav>
 				</div>
 			</div>
+
 			<div class="above_header">
-				<h1>Tomash Volodymyr</h1>
-				<br>
-				<br>
+				<h1>We Design and Develop</h1>
 				<p>
-					I'm front-end developer. <br>I have over 1 year of combined experience, and know a lot of things 
-					about developing websites and coding.
+					We are a new design studio based in USA. We have over 
+					20 years of combined experience, and know a thing or two 
+					about designing websites and mobile apps.
 				</p>
-				<button class="contact_me"><a href="#form">contact me</a> </button>
+				<button class="contact_me"><a href="#contact">contact me</a> </button>
 			</div>
 		</header>
-		<div class="about" id="about">
+
+		<div id="about"></div>
+		<div class="about">
+
 			<div class="ab_wrapper">
+
 				<h2>About Me</h2>
 				<br>
 				<br>
 				<p> 
-					I'm 25 years old men. I like my profession and I do my job well. 
-					My hobbies are sports especially gym, playing guitar, travelling and of course programming. I know four
-					languages, it is English, Ukrainian, Romanian and Russian. 
+					Divide have don't man wherein air fourth. Own itself make have night won't make. 
+					A you under Seed appear which good give. Own give air without fowl moveth dry first 
+					heaven fruit, dominion she'd won't very all.
 				</p>
 			</div>	
 		</div>
-		<div class="skills" id="work">
+
+		<div class="skills" >
 			<div class="sk_inf">
 				<h3>Professional Skills</h3>
 				<div class="lines_d">					
-					<p>JS   75%</p>
+					<p>UI/UX Design    75%</p>
 				</div>
 				<div class="lines_w">
-					<p>htm / css    90%</p>
+					<p>web development    90%</p>
 				</div> 
 				<div class="lines_m">
-					<p>React/Readux    65%</p>
+					<p>marketing    65%</p>
 				</div>
 			</div>
-			<div class="sk_img">	
+			<div class="sk_img ibg">	
+				 <img src="img/skills_img.jpg">
 			</div>
 		</div>
+
+
+		<div id="work"></div>
+
 		<div class="digits">
 			<div ><p><span>548</span><br><br>projectsb br completed</p></div>
 			<div ><p><span>1465</span><br><br>WORKING HOURS</p></div>
 			<div ><p><span>612</span><br><br>POSITIVE FEEDBACKS</p></div>
 			<div ><p><span>735</span><br><br>HAPPY CLIENTS</p></div>
 		</div>
-		<div class="photos">
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
+
+		<div class="photos show-more-less gallery">
+			<a href="img/photo_one.jpg" class="ibg show-more-less_block"><img src="img/photo_one.jpg"></a>
+			<a href="img/photo_two.jpg" class="ibg show-more-less_block"><img src="img/photo_two.jpg"></a>
+			<a href="img/photo_three.jpg" class="ibg show-more-less_block"><img src="img/photo_three.jpg"></a>
+			<a href="img/photo_four.jpg" class="ibg show-more-less_block"><img src="img/photo_four.jpg"></a>
+			<a href="img/photo_five.png" class="ibg show-more-less_block"><img src="img/photo_five.png"></a>
+			<a href="img/photo_six.jpg" class="ibg show-more-less_block"><img src="img/photo_six.jpg"></a>
+			<a href="img/photo_seven.jpg" class="ibg show-more-less_block"><img src="img/photo_seven.jpg"></a>
+			<a href="img/photo_eight.jpg" class="ibg show-more-less_block"><img src="img/photo_eight.jpg"></a>
+			<a href="img/photo_eight.jpg" class="ibg show-more-less_block"> <img src="img/photo_eight.jpg"></a>
 		</div>
-		<div class="lead_more"><h3>load more work</h3></div>
-		<div class="work_rocess" id="process">
+		<button class="to-show lead_more" onclick="showMore()"><h3>load more work</h3></button>
+		<button class="to-hidden lead_more" onclick="showLess()"><h3>load less work</h3></button>
+
+		<div id="process"></div>
+		
+		<div class="work_rocess">
 			<h3>My Work Process</h3>
 			<br> <br>
 			<p>
-				Actually it isn't my video but I put it here to improve the view of that page.
+				Was years it seasons was there form he in in them together over that, 
+				third sixth gathered female creeping bearing behold years.
 			</p>
-			<video width="1174" height="574" controls="controls">
+			<video  controls="controls">
 				<source src="video/Website Design and Development Process.mp4" type="video/mp4">
 			</video>
 		</div>
-		<div class="thinks" id="services">
+
+
+		<div id="services"></div>
+
+		<div class="things">
 			<div ><p><span>ui / ux design</span><br>Be set fourth land god darkness make it wherein own</p></div>
 			<div ><p><span>web development</span><br>A she'd them bring void moving third she'd kind fill</p></div>
 			<div ><p><span>app / mobile</span><br>Dominion man second spirit he,earth they're creeping</p></div>
@@ -105,36 +131,110 @@
 			<div ><p><span>graphic design</span><br>Open, great whales air rule for, fourth life whales</p></div>
 			<div ><p><span>illustrations</span><br>Whales likeness hath, man kind for them air two won't</p></div>
 		</div>
-		<div class="testimonials" id="testimonials">
-			<p>“ Outstanding job and exceeded all expectations. It was a pleasure <br>	 
-				to work with them on a sizable first project and am looking <br> 
-				forward to start the next one asap.”<br><br><span>Michael Hopkins</span></p>
+
+
+		<div id="testimonials"></div>
+
+		<div class="testimonials">
+
+			<!-- Slider main container -->
+			<div class="testimonials__swiper-container swiper-container">
+			    <!-- Additional required wrapper -->
+			    <div class="testimonials__swiper-wrapper  swiper-wrapper">
+			        <!-- Slides -->
+			        <div class="testimonials__swiper-wrapper  swiper-slide">
+			        	<div class="testimonials__swiper-element">
+			        		<p>“ Outstanding job and exceeded all expectations. It was a pleasure <br>	 
+							to work with them on a sizable first project and am looking <br> 
+							forward to start the next one asap.”<br><br><span>Michael Hopkins</span></p>
+			        	</div>
+			        	
+					</div>
+			        <div class="testimonials__swiper-wrapper  swiper-slide">
+			        	<div class="testimonials__swiper-element">
+			        		<p>“ Outstanding job and exceeded all expectations. It was a pleasure <br>	 
+							to work with them on a sizable first project and am looking <br> 
+							forward to start the next one asap.”<br><br><span>Michael Hopkins</span></p>
+			        	</div>
+					</div>
+					<div class="testimonials__swiper-wrapper  swiper-slide">
+			        	<div class="testimonials__swiper-element">
+			        		<p>“ Outstanding job and exceeded all expectations. It was a pleasure <br>	 
+							to work with them on a sizable first project and am looking <br> 
+							forward to start the next one asap.”<br><br><span>Michael Hopkins</span></p>
+			        	</div>
+					</div>
+			    </div>
+			    <!-- If we need pagination -->
+			    <div class="swiper-pagination"></div>
+
+			</div>
+
+
 
 		</div>
+
+
 		<div class="clients"></div>
+
+
+		<div id="contact"></div>
+
 		<div class="form_part">
 			<h3>Need a Project?</h3>
 			<br>
 			<p>Let me know what you're looking for in an agency. I'll take a look and see <br>
 				if this could be the start of something beautiful.</p>
 			<form action="mailto:ia.vladimir.tomash@gmail.com" method="get" enctype="text/plain" class="form" id="form">
-				<input class="input" type="text" placeholder="Your Name" name="name">
-				<input class="input" type="email" placeholder="Your Email" name="email">
-				<input class="input" id="title" type="text" placeholder="Your Title" name="title">
-				<textarea name="comment" id="comment" >Your Comment</textarea>
+				<input class="input" type="text" placeholder="Your Name" name="name" required>
+				<input class="input" type="email" placeholder="Your Email" name="email" required>
+				<input class="input" id="title" type="text" placeholder="Your Title" name="title" required>
+				<textarea name="comment" id="comment" placeholder="Your Comment" required></textarea>
 				<button class="form_button">send message</button>
 			</form>
 		</div>
-		<footer id="contact">
-			<p> <span>Piroll Design, Inc.</span><br>© 2017 Piroll. All rights reserved. <br> Designed by robirurk.</p>
+
+		<footer >
+		<!-- 	<p> <span>Piroll Design, Inc.</span><br>© 2017 Piroll. All rights reserved. <br> Designed by robirurk.</p>
 			<p>ia.vladimir.tomash@gmail.com <br> +380994629468 </p>
 			<p>Projects <br>About <br>Services <br>Carreer</p>
 			<p>News <br>Events <br>Contact <br>Legals</p>
-			<p>Facebook <br>Twitter <br>Instagram <br>Dribbble</p>
+			<p>Facebook <br>Twitter <br>Instagram <br>Dribbble</p> -->
+			<ul>
+				<li>Piroll Design, Inc.</li>
+				<li>© 2017 Piroll. All rights reserved.</li>
+				<li>Designed by robirurk.</li>
+			</ul>
+			<ul>
+				<li>some.email@gmail.com</li>
+				<li>+3809555555</li>
+			</ul>
+			<ul>
+				<li>Projects</li>
+				<li>About</li>
+				<li>Services</li>
+				<li>Carreer</li>
+			</ul>
+			<ul>
+				<li>News</li>
+				<li>Events</li>
+				<li>Contact</li>
+				<li>Legals</li>
+			</ul>
+			<ul>
+				<li>Facebook</li>
+				<li>Twitter</li>
+				<li>Instagram</li>
+				<li>Dribbble</li>
+			</ul>
 		</footer>
+
+
 		<!-- Подключаем jQuery -->
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 		<!-- Подключаем файл JS скриптов -->
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 		<script src="js/script.js"></script>
+		
 	</body>
 </html>
